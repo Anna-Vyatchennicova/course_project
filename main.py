@@ -291,6 +291,7 @@ class MyWidget(QMainWindow, Ui_MainWindow):
                     self.pushButton_2.setText('../' + test_name.split('/')[-1][:17])
 
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MyWidget()
